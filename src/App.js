@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <Banner />
         <div>
-          <h3> Testina </h3>
+          <h3> Test rea </h3>
         </div>
       <AlbumMaker />
      
