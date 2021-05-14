@@ -2,7 +2,7 @@
 import React from 'react';
 import './csss.css';
 
-class PhotoEntry extends React.Component {
+class PhotoEntry2 extends React.Component {
 
   render() {
 
@@ -19,4 +19,4 @@ class PhotoEntry extends React.Component {
 
 }
 
-export default PhotoEntry;
+export default PhotoEntry2;

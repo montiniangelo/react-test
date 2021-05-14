@@ -1,8 +1,8 @@
 import React from 'react';
-import PhotoEntry from './PhotoEntry';
-import entries from './photo-entries';
+import PhotoEntry3 from './PhotoEntry3';
+import entries from './photo-entries3';
 
-class AlbumMaker extends React.Component {
+class AlbumMaker3 extends React.Component {
 
   render() {
 
@@ -10,8 +10,8 @@ class AlbumMaker extends React.Component {
 
     return (
 
-  <div className="content fade-in">
-    <h3>Aperitivo</h3>
+  <div className="content">
+      <h3>Da mangiare</h3>
      <table className="table is-striped">
          <thead>
     <tr>
@@ -31,7 +31,7 @@ class AlbumMaker extends React.Component {
    
         {
         entries.itemlist.map((photo) => {
-          return <PhotoEntry cod={photo.cod} item={photo.item} prezzo={photo.prezzo} /> }
+          return <PhotoEntry3 cod={photo.cod} item={photo.item} prezzo={photo.prezzo} /> }
         )
         }
      </tbody>
@@ -45,4 +45,4 @@ class AlbumMaker extends React.Component {
 
 }
 
-export default AlbumMaker;
+export default AlbumMaker3;
